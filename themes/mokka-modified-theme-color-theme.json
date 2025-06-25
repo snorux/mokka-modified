@@ -1,24 +1,22 @@
 {
-  "name": "Mokka: Green",
+  "name": "Mokka Modified",
   "type": "dark",
   "colors": {
     "editor.background": "#191919",
     "editor.foreground": "#A0A0A0",
 
     "focusBorder": "#333333",
-    "selection.background": "#B3B3B3",
+    "selection.background": "#66666666",
 
     "window.activeBorder": "#191919",
     "window.inactiveBorder": "#333333",
 
-    "titleBar.inactiveBackground": "#333333",
+    "titleBar.inactiveBackground": "#191919",
     "titleBar.inactiveForeground": "#666666",
     "titleBar.activeBackground": "#191919",
     "titleBar.activeForeground": "#B3B3B3",
 
     "welcomePage.background": "#191919",
-    "welcomePage.buttonBackground": "#333333",
-    "welcomePage.buttonHoverBackground": "#666666",
 
     "activityBar.border": "#191919",
     "activityBar.background": "#191919",
@@ -76,7 +74,7 @@
     "tab.border": "#191919",
     "tab.activeBorder": "#191919",
     "tab.activeBorderTop": "#191919",
-    "tab.activeBackground": "#191919",
+    "tab.activeBackground": "#33333333",
     "tab.activeForeground": "#B3B3B3",
     "tab.hoverBorder": "#191919",
     "tab.hoverBackground": "#191919",
@@ -114,8 +112,8 @@
 
     "editor.hoverHighlightBackground": "#333333",
 
-    "editorIndentGuide.background": "#333333",
-    "editorIndentGuide.activeBackground": "#666666",
+    "editorIndentGuide.background1": "#333333",
+    "editorIndentGuide.activeBackground1": "#666666",
 
     "editorSuggestWidget.border": "#333333",
     "editorSuggestWidget.background": "#191919",
@@ -148,7 +146,7 @@
 
     "panel.border": "#333333",
     "panel.background": "#191919",
-    "panelTitle.activeBorder": "#191919",
+    "panelTitle.activeBorder": "#666666",
     "panelTitle.activeForeground": "#B3B3B3",
     "panelTitle.inactiveForeground": "#666666",
 
@@ -223,7 +221,7 @@
         "punctuation.definition.keyword.scss"
       ],
       "settings": {
-        "foreground": "#20B090"
+        "foreground": "#B070B0"
       }
     },
 
@@ -252,7 +250,7 @@
         "meta.function-call.generic.python"
       ],
       "settings": {
-        "foreground": "#20B090"
+        "foreground": "#70B0E0"
       }
     },
 
@@ -304,7 +302,6 @@
         "entity.other.attribute-name.scss",
         "support.type.property-name.media.css",
         "constant.other.caps.python",
-        "variable.other.constant entity.name.function",
         "constant.language.import-export-all"
       ],
       "settings": {
@@ -315,7 +312,7 @@
     {
       "scope": ["punctuation", "comment", "keyword.operator", "meta.brace"],
       "settings": {
-        "foreground": "#53585c"
+        "foreground": "#505050"
       }
     }
   ]
